@@ -3,11 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="LoveWish">
-            <file>file:/C:/Users/f.muratorio/Documents/LoveWishBknd/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/f.muratorio/Documents/LoveWishBknd/src/java/LoveWishWS/ApplicationConfig.java</file>
-            <file>file:/C:/Users/f.muratorio/Documents/LoveWishBknd/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/f.muratorio/Documents/LoveWishBknd/src/java/hibernate.cfg.xml</file>
-            <file>file:/C:/Users/f.muratorio/Documents/LoveWishBknd/src/java/LoveWishWS/GenericResource.java</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/LoveWishWS/GenericResource.java</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/hibernate.hbm.xml</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/model/Category.java</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/LoveWishWS/ApplicationConfig.java</file>
+            <file>file:/C:/Users/f.muratorio/Documents/LoveWIshGit/LoveWishBknd/src/java/model/Question.java</file>
         </group>
         <group>
             <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/LoveWishWS/ApplicationConfig.java</file>
