@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="LoveWishDAO.User" table="user">
+    <id name = "id" type="java.lang.Long">
+        <column name="ID" />
+        <generator class="identity" />
+    </id>
+    <property name="name" type="string">
+        <column name="NAME" length="30" not-null="true" />
+    </property>
+    <property name="lastname" type="string">
+        <column name="LASTNAME" length="30" not-null="true" />
+    </property>    
+    <property name="email" type="string">
+        <column name="EMAIL" length="30" not-null="true" />
+    </property> 
+    <property name="password" type="string">
+        <column name="PASSWORD" length="30" not-null="true" />
+    </property>     
+    <property name="sex" type="string">
+        <column name="SEX" length="1" not-null="true" />
+    </property>  
+    <property name="birthdate" type="date">
+        <column name="BIRTHDATE" not-null="true" />
+    </property>  
+    <property name="username" type="string">
+        <column name="USERNAME" length="30" not-null="true" />
+    </property>  
+    <property name="city" type="string">
+        <column name="CITY" length="30" not-null="true" />
+    </property> 
+  </class>
+</hibernate-mapping>
