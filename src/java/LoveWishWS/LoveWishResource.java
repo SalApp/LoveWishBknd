@@ -58,7 +58,7 @@ public class LoveWishResource {
     public String getXml(
                 @QueryParam("name") String name,
 		@QueryParam("lastname") String lastname,
-		@QueryParam("bithdate") String birthdate,
+		@QueryParam("birthdate") String birthdate,
                 @QueryParam("city") String city,
                 @QueryParam("email") String email,
                 @QueryParam("sex") String sex,
