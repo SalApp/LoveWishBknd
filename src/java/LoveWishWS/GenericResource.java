@@ -5,6 +5,8 @@
  */
 package LoveWishWS;
 
+import java.util.Date;
+import java.util.List;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.Consumes;
@@ -12,6 +14,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PUT;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 /**
@@ -33,13 +36,27 @@ public class GenericResource {
 
     /**
      * Retrieves representation of an instance of LoveWishWS.GenericResource
+     * @param name
+     * @param lastname
+     * @param bithdate
+     * @param city
+     * @param email
+     * @param password
      * @return an instance of java.lang.String
      */
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public String getXml() {
+    public String getXml(
+                @QueryParam("name") String name,
+		@QueryParam("lastname") String lastname,
+		@QueryParam("bithdate") String bithdate,
+                @QueryParam("city") String city,
+                @QueryParam("email") String email,
+                @QueryParam("password") String password
+    ) {
+        
         //TODO return proper representation object
-        return "Ciao";
+        return name + " " + lastname + " " + bithdate + " " + city + " " + email + " " + password;
     }
 
     /**
