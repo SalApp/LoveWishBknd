@@ -47,7 +47,7 @@ public class LoveWishResource {
      * Retrieves representation of an instance of LoveWishWS.GenericResource
      * @param name
      * @param lastname
-     * @param bithdate
+     * @param birthdate
      * @param city
      * @param email
      * @param password
@@ -70,9 +70,9 @@ public class LoveWishResource {
             Session session = HibernateUtil.getSessionFactory().openSession();
             session.beginTransaction();
             
-            DateFormat format = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
+            DateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
             Date date = format.parse(birthdate);
-            User user = new User(name,lastname,email,password,sex,date,username,city);
+            User user = new User(name,lastname,email,password,"F",date,name,city);
             
             session.save(user);
             session.getTransaction().commit();

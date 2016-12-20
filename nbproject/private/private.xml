@@ -13,7 +13,15 @@
         </group>
         <group>
             <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/LoveWishWS/ApplicationConfig.java</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/web/META-INF/context.xml</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/nbproject/build-impl.xml</file>
             <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/LoveWishWS/LoveWishResource.java</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/web/WEB-INF/web.xml</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/LoveWishDAO/User.java</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/LoveWishWS/utils/HibernateUtil.java</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/hibernate.cfg.xml</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/src/java/user.hbm.xml</file>
+            <file>file:/D:/Dropbox/Documenti/SALAP/Love%20Wish/Lovewish_questions/LoveWishBknd/LoveWishBknd/test/HibernateJUnitTest.java</file>
         </group>
     </open-files>
 </project-private>
